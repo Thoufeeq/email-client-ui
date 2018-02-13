@@ -1,0 +1,126 @@
+body {
+  background: #e2e1e0;
+  font-size: 0.8rem;
+  color: 555;
+}
+
+.container {
+  margin-top: 5vh;
+  border: 1px solid #e0e0e0;
+  position: relative;
+}
+
+.list-group .list-group-item:hover {
+  background-color: #ff715b;
+  color: white;
+  /*box-shadow: 0 2px 2px rgba(76, 175, 80, 0.25),
+    0 2px 2px rgba(139, 195, 74, 0.22);*/
+  /*box-shadow: 0 13px 21px -5px rgba(0, 0, 0, 0.2);*/
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  cursor: pointer;
+}
+
+.list-group-item {
+  margin-bottom: 0px;
+  background-color: #fafafa;
+  color: #777;
+  vertical-align: center;
+}
+
+.detail-view {
+  color: #777;
+  font-size: 0.9rem;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 5px;
+  background-color: #fafafa;
+  /*box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);*/
+  box-shadow: 0 13px 21px -5px rgba(0, 0, 0, 0.2);
+}
+
+.fade-enter {
+  opacity: 0.01;
+  right: 50px;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+  right: 0px;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-out all;
+}
+
+img {
+  border-radius: 50px;
+  height: 45px;
+  margin: 0 10px;
+}
+
+.preload-symbol {
+  min-height: 15vh;
+  margin-top: 10vh;
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  font-size: 36px;
+  font-weight: lighter;
+}
+
+.email-subject {
+  font-size: 36px;
+  color: #333;
+}
+
+.list-group-item .badge {
+  margin-top: 15px;
+}
+
+.badge,
+.badge-pill {
+  float: right;
+  padding-bottom: 3px;
+}
+
+.email-meta {
+  vertical-align: center;
+}
+
+.email-meta .small,
+.mailblue {
+  color: #17a2b8;
+  font-weight: bold;
+}
+
+.email-meta .small,
+.mail-sender {
+  color: #555;
+  font-weight: bold;
+}
+
+.email-meta .badge {
+  margin-top: 3px;
+}
+
+.email-body {
+  line-height: 1.5rem;
+  padding: 1vw;
+  margin-top: 2vh;
+  border-radius: 5px;
+  border: 1px solid #ededed;
+  background: white;
+}
+
+.badge-info {
+  border: 1px solid #17a2b8;
+  color: #17a2b8;
+  font-weight: normal;
+  background: white;
+}
